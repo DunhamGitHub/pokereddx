@@ -66,7 +66,7 @@ MoveEnd:
 	move FLAMETHROWER, BURN_SIDE_EFFECT1,           90, FIRE,     100, 15
 	move MIST,         MIST_EFFECT,                  0, ICE,      100, 30
 	move WATER_GUN,    NO_ADDITIONAL_EFFECT,        40, WATER,    100, 25
-	move HYDRO_PUMP,   NO_ADDITIONAL_EFFECT,       110, WATER,     80,  5
+	move HYDRO_PUMP,   NO_ADDITIONAL_EFFECT,       120, WATER,    100,  5
 	move SURF,         NO_ADDITIONAL_EFFECT,        90, WATER,    100, 15
 	move ICE_BEAM,     FREEZE_SIDE_EFFECT,          90, ICE,      100, 10
 	move BLIZZARD,     FREEZE_SIDE_EFFECT,         110, ICE,       70,  5
@@ -85,7 +85,7 @@ MoveEnd:
 	move MEGA_DRAIN,   DRAIN_HP_EFFECT,             40, GRASS,    100, 15
 	move LEECH_SEED,   LEECH_SEED_EFFECT,            0, GRASS,     90, 10
 	move GROWTH,       GROWTH_EFFECT,                0, NORMAL,   100, 20
-	move RAZOR_LEAF,   NO_ADDITIONAL_EFFECT,        55, GRASS,     95, 25
+	move RAZOR_LEAF,   NO_ADDITIONAL_EFFECT,       120, GRASS,    100,  5
 	move SOLARBEAM,    CHARGE_EFFECT,              200, GRASS,    100, 10
 	move POISONPOWDER, POISON_EFFECT,                0, POISON,    75, 35
 	move STUN_SPORE,   PARALYZE_EFFECT,              0, GRASS,     75, 30
@@ -97,7 +97,7 @@ MoveEnd:
 	move THUNDERSHOCK, PARALYZE_SIDE_EFFECT1,       40, ELECTRIC, 100, 30
 	move THUNDERBOLT,  PARALYZE_SIDE_EFFECT1,       90, ELECTRIC, 100, 15
 	move THUNDER_WAVE, PARALYZE_EFFECT,              0, ELECTRIC,  90, 20
-	move THUNDER,      PARALYZE_SIDE_EFFECT1,      110, ELECTRIC,  70, 10
+	move THUNDER,      PARALYZE_SIDE_EFFECT1,      120, ELECTRIC, 100,  5
 	move ROCK_THROW,   NO_ADDITIONAL_EFFECT,        50, ROCK,      90, 15
 	move EARTHQUAKE,   NO_ADDITIONAL_EFFECT,       100, GROUND,   100, 10
 	move FISSURE,      OHKO_EFFECT,                  1, GROUND,    30,  5
@@ -136,7 +136,7 @@ MoveEnd:
 	move SMOG,         POISON_SIDE_EFFECT2,         30, POISON,    70, 20
 	move SLUDGE,       POISON_SIDE_EFFECT2,         65, POISON,   100, 20
 	move BONE_CLUB,    FLINCH_SIDE_EFFECT1,         65, GROUND,    85, 20
-	move FIRE_BLAST,   BURN_SIDE_EFFECT2,          110, FIRE,      85,  5
+	move FIRE_BLAST,   BURN_SIDE_EFFECT2,          120, FIRE,     100,  5
 	move WATERFALL,    NO_ADDITIONAL_EFFECT,        80, WATER,    100, 15
 	move CLAMP,        TRAPPING_EFFECT,             35, WATER,     85, 15
 	move SWIFT,        SWIFT_EFFECT,                60, NORMAL,   100, 20
