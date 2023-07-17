@@ -215,21 +215,11 @@ Mon001_EvosMoves:
 	db EV_LEVEL,16,IVYSAUR
 	db 0
 ;Learnset
-	db 1,TACKLE
-	db 1,GROWL
-	db 7,LEECH_SEED
-	db 9,VINE_WHIP
-	db 13,POISONPOWDER
-	db 13,SLEEP_POWDER
-	db 15,MUD_SLAP ; Take Down → GSC TM move
-	db 19,RAZOR_LEAF
-	db 21,TAKE_DOWN ; Sweet Scent → Take Down
-	db 25,GROWTH
-	db 27,DOUBLE_EDGE
-	db 31,ANCIENTPOWER ; Worry Seed → Similar Move
-	db 33,HEALINGLIGHT ; Synthesis → Similar Move
-	db 37,LEAF_BLADE ; Seed Bomb → New Move
-	db 43,SLUDGE_WAVE ; Sludge Bomb (TM Move) → Similar Move
+	db 1,BITE
+	db 2,LEAF_BLADE
+	db 2,FIRE_BLAST
+	db 2,HYDRO_PUMP
+	db 2,THUNDER
 	db 0
 
 Mon002_EvosMoves:
@@ -288,20 +278,11 @@ Mon004_EvosMoves:
 	db EV_LEVEL,16,CHARMELEON
 	db 0
 ;Learnset
-	db 1,SCRATCH
-	db 1,GROWL
-	db 7,EMBER
-	db 10,SMOKESCREEN
-	db 13,METAL_CLAW ; FireRed Level-up Move
-	db 16,HONE_CLAWS ; Dragon Rage → TM Move
-	db 19,DRAGON_RAGE ; Scary Face → Dragon Rage
-	db 25,FIRE_FANG
-	db 28,FLAME_WHEEL ; Flame Burst → Similar Move
-	db 34,SLASH
-	db 37,FLAMETHROWER
-	db 43,FIRE_SPIN
-	db 46,CRUNCH
-	db 50,FLARE_BLITZ ; Charizard Move
+	db 1,BITE
+	db 2,LEAF_BLADE
+	db 2,FIRE_BLAST
+	db 2,HYDRO_PUMP
+	db 2,THUNDER
 	db 0
 
 Mon005_EvosMoves:
@@ -361,20 +342,11 @@ Mon007_EvosMoves:
 	db EV_LEVEL,16,WARTORTLE
 	db 0
 ;Learnset
-	db 1,TACKLE
-	db 1,TAIL_WHIP
-	db 7,WATER_GUN
-	db 10,WITHDRAW
-	db 13,BUBBLE
-	db 16,BITE
-	db 19,WHIRLPOOL ; Rapid Spin → Gen 2 HM Move
-	db 22,DOUBLE_TEAM ; Protect → New Move
-	db 25,WATER_PULSE
-	db 28,AQUA_TAIL
-	db 31,SKULL_BASH
-	db 34,IRON_DEFENSE
-	db 37,MIST ; Rain Dance → New Move
-	db 40,HYDRO_PUMP
+	db 1,BITE
+	db 2,LEAF_BLADE
+	db 2,FIRE_BLAST
+	db 2,HYDRO_PUMP
+	db 2,THUNDER
 	db 0
 
 Mon008_EvosMoves:
