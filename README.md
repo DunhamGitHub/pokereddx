@@ -3,6 +3,7 @@
 Changes:
 
 - no PP decrease
+- better attacks for starters
 
 
 

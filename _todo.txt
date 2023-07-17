@@ -5,6 +5,7 @@ done
 
 todo
 
+- text frame like crystal
 - data/pokemon/base stats, set GENDER_F100
 - elmslabs.asm set starter poks, give rare candy from aide
     give nugget (10k can sell)

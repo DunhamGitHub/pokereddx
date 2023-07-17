@@ -15,7 +15,8 @@ pokeblue_obj := audio_blue.o main_blue.o text_blue.o wram_blue.o
 .PRECIOUS: %.2bpp
 .PHONY: all clean red blue compare tools
 
-roms := pokered.gbc pokeblue.gbc
+#roms := pokered.gbc pokeblue.gbc
+roms := pokered.gbc
 
 all: $(roms)
 red: pokered.gbc

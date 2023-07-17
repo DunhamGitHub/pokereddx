@@ -24,22 +24,6 @@ DisplayHackVersionScreen::
 	call PlaceString
 ; wait for the player to press A
 	call WaitForTextScrollButtonPress
-; load the tilemap for the screen again
-	call CleanPikachuScreen
-; display the second page
-	coord hl, 2, 2
-	ld de, VersionScreenText2
-	call PlaceString
-	; wait for the player to press A
-	call WaitForTextScrollButtonPress
-; load the tilemap for the screen again
-	call CleanPikachuScreen
-; display the third page
-	coord hl, 2, 6
-	ld de, VersionScreenText3
-	call PlaceString
-	; wait for the player to press A
-	call WaitForTextScrollButtonPress
 ; wipe the screen and go back
 	call ClearScreen
 	ret
@@ -58,27 +42,9 @@ VersionScreenTilemap:
 	INCBIN "gfx/tilemaps/blank_text_screen.kmp"
 VersionScreenTilemapEnd:
 
+
 VersionScreenText:
-	db   "Welcome to Red++"
-	next "You are playing"
-IF DEF(_HARD) ; Hard Rom
-	next "The Hard Patch"
-ELSE ; Normal Rom
-	next "The Normal Patch"
-ENDC
-IF DEF(_SNOW)
-	next "v3.0.2 (Snowy)@"
-ELSE
-	next "v3.0.2@"
-ENDC
-
-VersionScreenText2:
-	db   "Readme and FAQ"
-	next "are found at:"
-	next "www.github.com/"
-	next "JustRegularLuna/"
-	next "rpp-backup@"
-
-VersionScreenText3:
-	db   "Have fun!"
-	next "  - Luna, 2018@"
+	db   "Welcome to"
+	next "Pokémon Red DX"
+	next "David Bluetree"
+	next "...Well done!@"

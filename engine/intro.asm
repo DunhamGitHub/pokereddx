@@ -7,9 +7,6 @@ PlayIntro:
 	ld [hJoyHeld], a
 	inc a
 	ld [H_AUTOBGTRANSFERENABLED], a
-	call PlayShootingStar
-	call PlayIntroScene
-	call GBFadeOutToWhite
 	xor a
 	ld [hSCX], a
 	ld [H_AUTOBGTRANSFERENABLED], a
@@ -302,16 +299,6 @@ LoadIntroGraphics:
 	jp FarCopyData2
 
 PlayShootingStar:
-; load Meowth palette to screen and call Mateo Presents instead of Nintendo Creatures Gamefreak
-	ld a, MEOWTH
-	ld [wWholeScreenPaletteMonSpecies],a
-	ld b, SET_PAL_POKEMON_WHOLE_SCREEN
-	call RunPaletteCommand
-	callba LoadMateoPresentsScreen
-	ld a, %11100100
-	ld [rBGP], a
-	ld c, 180
-	call DelayFrames
 ; clear the screen and get ready to show the original stuff properly
 	call GBPalWhiteOut ; addded
 	call ClearScreen
