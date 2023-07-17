@@ -2,11 +2,11 @@ done
 - starter female 100%
 - moves.asm, 100% accuracy for cool moves
 - evos_moves.asm, added stuff for starters, hoho and lugia level 2, starter cannot evolve
+- text frame like crystal
+- item prices all 1$
 
 todo
 
-- text frame like crystal
-- data/pokemon/base stats, set GENDER_F100
 - elmslabs.asm set starter poks, give rare candy from aide
     give nugget (10k can sell)
 - data items attributes.asm, set price to 1, nugget to 10k
