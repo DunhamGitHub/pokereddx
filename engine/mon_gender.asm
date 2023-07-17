@@ -51,15 +51,15 @@ GetMonGender::
 	ret
 	
 MonGenderRatios:
-	db MALE_88_PERCENT   ; Bulbasaur
-	db MALE_88_PERCENT   ; Ivysaur
-	db MALE_88_PERCENT   ; Venusaur
-	db MALE_88_PERCENT   ; Charmander
-	db MALE_88_PERCENT   ; Charmeleon
-	db MALE_88_PERCENT   ; Charizard
-	db MALE_88_PERCENT   ; Squirtle
-	db MALE_88_PERCENT   ; Wartortle
-	db MALE_88_PERCENT   ; Blastoise
+	db FEMALE_ONLY       ; Bulbasaur
+	db FEMALE_ONLY       ; Ivysaur
+	db FEMALE_ONLY       ; Venusaur
+	db FEMALE_ONLY       ; Charmander
+	db FEMALE_ONLY       ; Charmeleon
+	db FEMALE_ONLY       ; Charizard
+	db FEMALE_ONLY       ; Squirtle
+	db FEMALE_ONLY       ; Wartortle
+	db FEMALE_ONLY       ; Blastoise
 	db SAME_BOTH_GENDERS ; Caterpie
 	db SAME_BOTH_GENDERS ; Metapod
 	db SAME_BOTH_GENDERS ; Butterfree

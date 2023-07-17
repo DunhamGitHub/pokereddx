@@ -1,4 +1,7 @@
-2023 07 07
+done
+- starter female 100%
+
+todo
 
 - evos_attachs.asm, added stuff for starters, hoho and lugia level 2, starter cannot evolve
 - moves.asm, 100% accuracy for cool moves
@@ -12,4 +15,4 @@
 - random trainer pok
 
 
-todo
+
