@@ -4,12 +4,12 @@ done
 - evos_moves.asm, added stuff for starters, hoho and lugia level 2, starter cannot evolve
 - text frame like crystal
 - item prices all 1$
+- data items attributes.asm, set price to 1, nugget to 10k
 
 todo
 
 - elmslabs.asm set starter poks, give rare candy from aide
     give nugget (10k can sell)
-- data items attributes.asm, set price to 1, nugget to 10k
 - overworld.asm disable badge check on HM use
 - changed all SPRITE_RIVAL to SPRITE_MISTY
 - random wild pok
