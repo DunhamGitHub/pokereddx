@@ -43,3 +43,6 @@ pokeblue.map
 
 # ignore local rgbds
 rgbds/*
+
+# macos files
+.DS_STORE
