@@ -2,16 +2,16 @@ Route7Mons:
 IF DEF(_HARD) ; Difficult Rom
 ; Grass Mons
 	db $0F
-	db 29,MANKEY
-	db 29,ABRA
-	db 28,MEOWTH
-	db 30,MEOWTH
-	db 28,VULPIX
-	db 28,GROWLITHE
-	db 30,VULPIX
-	db 30,GROWLITHE
-	db 29,HOUNDOUR
-	db 30,MURKROW
+	db 29,PORYGONZ
+	db 29,VICTREEBEL
+	db 28,WIGGLYTUFF
+	db 30,TOGEPI
+	db 28,WEEZING
+	db 28,LICKITUNG
+	db 30,GENGAR
+	db 30,DUGTRIO
+	db 29,KRABBY
+	db 30,GASTLY
 
 ; Water Mons
 	db $00
@@ -19,16 +19,16 @@ IF DEF(_HARD) ; Difficult Rom
 ELSE ; Normal Rom
 ; Grass Mons
 	db $0F
-	db 19,MANKEY
-	db 19,ABRA
-	db 18,MEOWTH
-	db 20,MEOWTH
-	db 18,VULPIX
-	db 18,GROWLITHE
-	db 20,VULPIX
-	db 20,GROWLITHE
-	db 19,HOUNDOUR
-	db 20,MURKROW
+	db 19,POLIWRATH
+	db 19,OMASTAR
+	db 18,GYARADOS
+	db 20,LUGIA
+	db 18,GASTLY
+	db 18,IGGLYBUFF
+	db 20,UMBREON
+	db 20,GOLEM
+	db 19,CATERPIE
+	db 20,SNORLAX
 
 ; Water Mons
 	db $00

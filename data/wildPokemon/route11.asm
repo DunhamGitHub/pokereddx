@@ -2,16 +2,16 @@ Route11Mons:
 IF DEF(_HARD) ; Difficult Rom
 ; Grass Mons
 	db $0F
-	db 19,MEOWTH
-	db 20,SANDSHREW
-	db 19,SPEAROW
-	db 15,EKANS
-	db 20,EKANS
-	db 20,SANDSHREW
-	db 22,NIDORINO
-	db 22,NIDORINA
-	db 16,DROWZEE
-	db 20,DROWZEE
+	db 19,CATERPIE
+	db 20,BELLSPROUT
+	db 19,STARMIE
+	db 15,HO_OH
+	db 20,GOLDUCK
+	db 20,CROBAT
+	db 22,SEAKING
+	db 22,VOLTORB
+	db 16,GOLEM
+	db 20,RHYDON
 
 ; Water Mons
 	db $00
@@ -19,16 +19,16 @@ IF DEF(_HARD) ; Difficult Rom
 ELSE ; Normal Rom
 ; Grass Mons
 	db $0F
-	db 14,MEOWTH
-	db 15,SANDSHREW
-	db 14,SPEAROW
-	db 10,EKANS
-	db 15,EKANS
-	db 15,SANDSHREW
-	db 17,NIDORINO
+	db 14,CLEFABLE
+	db 15,ODDISH
+	db 14,HONCHKROW
+	db 10,RAICHU
+	db 15,METAPOD
+	db 15,GOLDUCK
 	db 17,NIDORINA
-	db 11,DROWZEE
-	db 15,DROWZEE
+	db 17,ELECTRODE
+	db 11,RATTATA
+	db 15,CROBAT
 
 ; Water Mons
 	db $00

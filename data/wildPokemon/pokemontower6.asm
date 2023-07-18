@@ -2,16 +2,16 @@ TowerMons6:
 IF DEF(_HARD) ; Difficult Rom
 ; Grass Mons
 	db $0F
-	db 31,GASTLY
-	db 32,GASTLY
-	db 33,GASTLY
-	db 34,GASTLY
-	db 30,MISDREAVUS
-	db 29,MISDREAVUS
-	db 34,CUBONE
-	db 32,CUBONE
-	db 36,HAUNTER
-	db 38,HAUNTER
+	db 31,MAGBY
+	db 32,HOUNDOOM
+	db 33,GRIMER
+	db 34,SQUIRTLE
+	db 30,KRABBY
+	db 29,KOFFING
+	db 34,STARYU
+	db 32,BELLOSSOM
+	db 36,NIDORINO
+	db 38,MEWTWO
 
 ; Water Mons
 	db $00
@@ -19,16 +19,16 @@ IF DEF(_HARD) ; Difficult Rom
 ELSE ; Normal Rom
 ; Grass Mons
 	db $0F
-	db 21,GASTLY
-	db 22,GASTLY
-	db 23,GASTLY
-	db 24,GASTLY
-	db 20,MISDREAVUS
-	db 19,MISDREAVUS
-	db 24,CUBONE
-	db 22,CUBONE
-	db 26,HAUNTER
-	db 28,HAUNTER
+	db 21,SMOOCHUM
+	db 22,ONIX
+	db 23,STEELIX
+	db 24,CROBAT
+	db 20,SLOWKING
+	db 19,BULBASAUR
+	db 24,TANGROWTH
+	db 22,VENONAT
+	db 26,ELECTABUZZ
+	db 28,SEADRA
 
 ; Water Mons
 	db $00

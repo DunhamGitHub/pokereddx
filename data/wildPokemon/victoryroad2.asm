@@ -2,16 +2,16 @@ PlateauMons2:
 IF DEF(_HARD) ; Difficult Rom
 ; Grass Mons
 	db $0A
-	db 60,SANDSLASH
-	db 62,RHYHORN
-	db 61,GOLEM
-	db 60,ONIX
-	db 61,ONIX
-	db 64,RHYDON
-	db 61,MACHAMP
-	db 60,CROBAT
-	db 63,STEELIX
-	db 63,MAROWAK
+	db 60,SLOWPOKE
+	db 62,SHELLDER
+	db 61,LICKILICKY
+	db 60,BLASTOISE
+	db 61,LUGIA
+	db 64,RATTATA
+	db 61,SANDSHREW
+	db 60,UMBREON
+	db 63,DRAGONAIR
+	db 63,PINSIR
 
 ; Water Mons
 	db $00
@@ -19,16 +19,16 @@ IF DEF(_HARD) ; Difficult Rom
 ELSE ; Normal Rom
 ; Grass Mons
 	db $0A
-	db 40,SANDSLASH
-	db 42,RHYHORN
-	db 41,GRAVELER
-	db 40,ONIX
-	db 41,ONIX
-	db 42,ONIX
-	db 41,MACHOKE
-	db 40,CROBAT
-	db 40,STEELIX
-	db 43,MAROWAK
+	db 40,WEAVILE
+	db 42,SPEAROW
+	db 41,HOUNDOOM
+	db 40,MUK
+	db 41,KABUTO
+	db 42,ABRA
+	db 41,AERODACTYL
+	db 40,VILEPLUME
+	db 40,HONCHKROW
+	db 43,RHYPERIOR
 
 ; Water Mons
 	db $00

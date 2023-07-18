@@ -2,16 +2,16 @@ MansionMonsB1:
 IF DEF(_HARD) ; Difficult Rom
 ; Grass Mons
 	db $0A
-	db 47,KOFFING
-	db 48,VULPIX
-	db 48,GROWLITHE
-	db 47,PONYTA
-	db 46,KOFFING
-	db 50,WEEZING
-	db 47,PONYTA
-	db 46,HOUNDOUR
-	db 50,MAGMAR
-	db 50,MAGMORTAR
+	db 47,WARTORTLE
+	db 48,BUTTERFREE
+	db 48,CHARIZARD
+	db 47,SCIZOR
+	db 46,LATIOS
+	db 50,HITMONLEE
+	db 47,MIME_JR
+	db 46,PORYGONZ
+	db 50,GEODUDE
+	db 50,PIDGEOTTO
 
 ; Water Mons
 	db $00
@@ -19,16 +19,16 @@ IF DEF(_HARD) ; Difficult Rom
 ELSE ; Normal Rom
 ; Grass Mons
 	db $0A
-	db 33,KOFFING
-	db 31,VULPIX
-	db 35,GROWLITHE
-	db 32,PONYTA
-	db 31,KOFFING
-	db 40,WEEZING
-	db 34,PONYTA
-	db 35,HOUNDOUR
-	db 42,MAGMAR
-	db 42,MAGMAR
+	db 33,PIDGEOT
+	db 31,PORYGON2
+	db 35,HERACROSS
+	db 32,RATTATA
+	db 31,ARCANINE
+	db 40,ELEKID
+	db 34,SLOWPOKE
+	db 35,LANTURN
+	db 42,PINSIR
+	db 42,BULBASAUR
 
 ; Water Mons
 	db $00

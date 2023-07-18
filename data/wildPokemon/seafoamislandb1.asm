@@ -2,16 +2,16 @@ IslandMonsB1:
 IF DEF(_HARD) ; Difficult Rom
 ; Grass Mons
 	db $0A
-	db 40,STARYU
-	db 40,SEADRA
-	db 42,SHELLDER
-	db 42,SEADRA
-	db 48,SLOWBRO
-	db 40,SEEL
-	db 40,SLOWBRO
-	db 48,SEEL
-	db 43,DEWGONG
-	db 40,JYNX
+	db 40,LATIOS
+	db 40,WEEPINBELL
+	db 42,OMANYTE
+	db 42,HITMONTOP
+	db 48,MILTANK
+	db 40,NIDOKING
+	db 40,HITMONCHAN
+	db 48,TENTACRUEL
+	db 43,ALAKAZAM
+	db 40,VENUSAUR
 
 ; Water Mons
 	db $00
@@ -19,16 +19,16 @@ IF DEF(_HARD) ; Difficult Rom
 ELSE ; Normal Rom
 ; Grass Mons
 	db $0A
-	db 30,STARYU
-	db 30,HORSEA
-	db 32,SHELLDER
-	db 32,HORSEA
-	db 28,SLOWPOKE
-	db 30,SEEL
-	db 30,SLOWPOKE
-	db 28,SEEL
-	db 38,DEWGONG
-	db 37,JYNX
+	db 30,NIDORAN_F
+	db 30,MEWTWO
+	db 32,SKARMORY
+	db 32,GENGAR
+	db 28,PRIMEAPE
+	db 30,RAPIDASH
+	db 30,ELECTIVIRE
+	db 28,MAGMORTAR
+	db 38,LUGIA
+	db 37,PORYGON
 
 ; Water Mons
 	db $00

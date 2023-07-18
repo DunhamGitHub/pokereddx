@@ -2,16 +2,16 @@ Route17Mons:
 IF DEF(_HARD) ; Difficult Rom
 ; Grass Mons
 	db $19
-	db 46,DODUO
-	db 47,FEAROW
-	db 47,DODUO
-	db 48,GRIMER
-	db 48,PONYTA
-	db 50,RAPIDASH
-	db 49,SLUGMA
-	db 48,SLUGMA
-	db 42,MUK
-	db 42,DODRIO
+	db 46,TOGETIC
+	db 47,MIME_JR
+	db 47,ABRA
+	db 48,VENUSAUR
+	db 48,ZUBAT
+	db 50,RHYDON
+	db 49,VICTREEBEL
+	db 48,ONIX
+	db 42,PIDGEOT
+	db 42,RAPIDASH
 
 ; Water Mons
 	db $00
@@ -19,16 +19,16 @@ IF DEF(_HARD) ; Difficult Rom
 ELSE ; Normal Rom
 ; Grass Mons
 	db $19
-	db 26,DODUO
-	db 27,FEAROW
-	db 27,DODUO
-	db 28,GRIMER
-	db 28,PONYTA
-	db 30,PONYTA
-	db 29,SLUGMA
-	db 28,SLUGMA
-	db 32,MUK
-	db 32,DODRIO
+	db 26,LEAFEON
+	db 27,ARTICUNO
+	db 27,HORSEA
+	db 28,GOLDEEN
+	db 28,PORYGON
+	db 30,SKARMORY
+	db 29,VICTREEBEL
+	db 28,KADABRA
+	db 32,NIDORINA
+	db 32,VICTREEBEL
 
 ; Water Mons
 	db $00

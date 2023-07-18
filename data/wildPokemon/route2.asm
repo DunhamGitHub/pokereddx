@@ -2,16 +2,16 @@ Route2Mons:
 IF DEF(_HARD) ; Difficult rom
 ; Grass Mons
 	db $19
-	db 4,RATTATA
-	db 4,PIDGEY
-	db 5,PIDGEY
-	db 5,RATTATA
-	db 6,NIDORAN_M
-	db 6,NIDORAN_F
-	db 4,ZIGZAGOON
-	db 4,ZIGZAGOON
-	db 6,WEEDLE
-	db 6,CATERPIE
+	db 4,SEADRA
+	db 4,HAPPINY
+	db 5,GYARADOS
+	db 5,JIGGLYPUFF
+	db 6,KANGASKHAN
+	db 6,GYARADOS
+	db 4,ESPEON
+	db 4,CATERPIE
+	db 6,LEAFEON
+	db 6,PRIMEAPE
 
 ; Water Mons
 	db $00
@@ -19,16 +19,16 @@ IF DEF(_HARD) ; Difficult rom
 ELSE ; Normal rom
 ; Grass Mons
 	db $19
-	db 3,RATTATA
-	db 3,PIDGEY
-	db 4,PIDGEY
-	db 4,RATTATA
-	db 5,NIDORAN_M
-	db 5,NIDORAN_F
-	db 3,ZIGZAGOON
-	db 3,ZIGZAGOON
-	db 5,WEEDLE
-	db 5,CATERPIE
+	db 3,RHYHORN
+	db 3,CHANSEY
+	db 4,DRAGONAIR
+	db 4,SLOWKING
+	db 5,HO_OH
+	db 5,HO_OH
+	db 3,WIGGLYTUFF
+	db 3,EXEGGUTOR
+	db 5,LEAFEON
+	db 5,PARAS
 
 ; Water Mons
 	db $00

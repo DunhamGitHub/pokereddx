@@ -1,16 +1,16 @@
 Route22Mons:
 ; Grass Mons
 	db $19
-	db 2,NIDORAN_M
-	db 2,NIDORAN_F
-	db 3,MANKEY
-	db 3,MEOWTH
-	db 4,NIDORAN_M
-	db 4,NIDORAN_F
-	db 5,MANKEY
-	db 2,MEOWTH
-	db 4,SPEAROW
-	db 6,SPEAROW
+	db 2,HYPNO
+	db 2,ELEKID
+	db 3,TOGEKISS
+	db 3,BEEDRILL
+	db 4,SNEASEL
+	db 4,PARASECT
+	db 5,BELLSPROUT
+	db 2,LATIOS
+	db 4,MAGMORTAR
+	db 6,OMANYTE
 
 ; Water Mons
 	db $00

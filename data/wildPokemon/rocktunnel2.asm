@@ -2,16 +2,16 @@ TunnelMonsB2:
 IF DEF(_HARD) ; Difficult Rom
 ; Grass Mons
 	db $0F
-	db 25,GOLBAT
-	db 27,GRAVELER
-	db 28,MACHOP
-	db 29,GOLBAT
-	db 30,GOLBAT
-	db 31,GRAVELER
-	db 30,MACHOP
-	db 24,TORKOAL
-	db 28,ONIX
-	db 32,ONIX
+	db 25,ZIGZAGOON
+	db 27,MUK
+	db 28,KAKUNA
+	db 29,HO_OH
+	db 30,ELECTIVIRE
+	db 31,HOUNDOUR
+	db 30,PSYDUCK
+	db 24,EKANS
+	db 28,GOLBAT
+	db 32,CATERPIE
 
 ; Water Mons
 	db $00
@@ -19,16 +19,16 @@ IF DEF(_HARD) ; Difficult Rom
 ELSE ; Normal Rom
 ; Grass Mons
 	db $0F
-	db 20,ZUBAT
-	db 17,GEODUDE
-	db 18,MACHOP
-	db 21,ZUBAT
-	db 22,ZUBAT
-	db 21,GEODUDE
-	db 20,MACHOP
-	db 14,TORKOAL
-	db 18,ONIX
-	db 22,ONIX
+	db 20,KOFFING
+	db 17,SMOOCHUM
+	db 18,CLOYSTER
+	db 21,OMASTAR
+	db 22,TOGEKISS
+	db 21,HORSEA
+	db 20,PIDGEY
+	db 14,DRAGONAIR
+	db 18,EXEGGCUTE
+	db 22,PIDGEOT
 
 ; Water Mons
 	db $00

@@ -2,16 +2,16 @@ MoonMonsB1:
 IF DEF(_HARD) ; Difficult Rom
 ; Grass Mons
 	db $0A
-	db 11,ZUBAT
-	db 10,SANDSHREW
-	db 10,GEODUDE
-	db 11,GEODUDE
-	db 12,GEODUDE
-	db 13,PARAS
-	db 13,PARAS
-	db 14,ONIX
-	db 12,CLEFAIRY
-	db 12,CLEFAIRY
+	db 11,VOLTORB
+	db 10,METAPOD
+	db 10,TENTACOOL
+	db 11,GASTLY
+	db 12,PSYDUCK
+	db 13,MUNCHLAX
+	db 13,SANDSLASH
+	db 14,MAGMORTAR
+	db 12,SLOWKING
+	db 12,PIKACHU
 
 ; Water Mons
 	db $00
@@ -19,16 +19,16 @@ IF DEF(_HARD) ; Difficult Rom
 ELSE ; Normal Rom
 ; Grass Mons
 	db $0A
-	db 8,ZUBAT
-	db 7,SANDSHREW
-	db 7,GEODUDE
-	db 8,GEODUDE
-	db 9,GEODUDE
-	db 10,PARAS
-	db 10,PARAS
-	db 11,ONIX
-	db 9,CLEFAIRY
-	db 9,CLEFAIRY
+	db 8,ELEKID
+	db 7,GOLDEEN
+	db 7,STARMIE
+	db 8,KAKUNA
+	db 9,KANGASKHAN
+	db 10,STEELIX
+	db 10,SLOWPOKE
+	db 11,PORYGONZ
+	db 9,SEAKING
+	db 9,SEADRA
 
 ; Water Mons
 	db $00

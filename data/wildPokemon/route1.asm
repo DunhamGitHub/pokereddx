@@ -1,16 +1,16 @@
 Route1Mons:
 ; Grass Mons
 	db $19
-	db 3,PIDGEY
-	db 3,RATTATA
-	db 3,RATTATA
-	db 2,ZIGZAGOON
-	db 2,ZIGZAGOON
-	db 3,PIDGEY
-	db 3,PIDGEY
-	db 4,ZIGZAGOON
-	db 4,PIDGEY
-	db 5,RATTATA
+	db 3,GOLDUCK
+	db 3,WEEDLE
+	db 3,EXEGGUTOR
+	db 2,KANGASKHAN
+	db 2,WEEPINBELL
+	db 3,RAPIDASH
+	db 3,BEEDRILL
+	db 4,SHELLDER
+	db 4,CLEFFA
+	db 5,BEEDRILL
 
 ; Water Mons
 	db $00

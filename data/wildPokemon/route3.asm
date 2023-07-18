@@ -2,16 +2,16 @@ Route3Mons:
 IF DEF(_HARD) ; Difficult Rom
 ; Grass Mons
 	db $14
-	db 8,SPEAROW
-	db 9,NIDORAN_M
-	db 9,NIDORAN_F
-	db 8,RATTATA
-	db 9,SANDSHREW
-	db 10,EKANS
-	db 10,ZIGZAGOON
-	db 10,MANKEY
-	db 7,JIGGLYPUFF
-	db 9,JIGGLYPUFF
+	db 8,SMOOCHUM
+	db 9,BLISSEY
+	db 9,PORYGON
+	db 8,ONIX
+	db 9,GRIMER
+	db 10,PORYGON
+	db 10,KRABBY
+	db 10,GOLDUCK
+	db 7,TENTACRUEL
+	db 9,VULPIX
 
 ; Water Mons
 	db $00
@@ -19,16 +19,16 @@ IF DEF(_HARD) ; Difficult Rom
 ELSE ; Normal Rom
 ; Grass Mons
 	db $14
-	db 6,SPEAROW
-	db 7,NIDORAN_M
-	db 7,NIDORAN_F
-	db 6,RATTATA
-	db 7,SANDSHREW
-	db 8,EKANS
-	db 8,ZIGZAGOON
-	db 9,MANKEY
-	db 5,JIGGLYPUFF
-	db 7,JIGGLYPUFF
+	db 6,CROBAT
+	db 7,ABRA
+	db 7,MAGMAR
+	db 6,MAGIKARP
+	db 7,BELLSPROUT
+	db 8,NIDORINO
+	db 8,HERACROSS
+	db 9,AERODACTYL
+	db 5,GOLBAT
+	db 7,SLOWBRO
 
 ; Water Mons
 	db $00

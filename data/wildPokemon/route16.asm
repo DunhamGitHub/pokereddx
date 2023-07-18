@@ -2,16 +2,16 @@ Route16Mons:
 IF DEF(_HARD) ; Difficult Rom
 ; Grass Mons
 	db $19
-	db 42,SPEAROW
-	db 42,DODUO
-	db 43,RATICATE
-	db 44,DODUO
-	db 44,GRIMER
-	db 46,DODUO
-	db 43,MURKROW
-	db 44,MURKROW
-	db 45,SLUGMA
-	db 46,SLUGMA
+	db 42,TENTACRUEL
+	db 42,KANGASKHAN
+	db 43,MUK
+	db 44,KRABBY
+	db 44,KAKUNA
+	db 46,SLOWKING
+	db 43,PARAS
+	db 44,PIDGEY
+	db 45,VENUSAUR
+	db 46,ZAPDOS
 
 ; Water Mons
 	db $00
@@ -19,16 +19,16 @@ IF DEF(_HARD) ; Difficult Rom
 ELSE ; Normal Rom
 ; Grass Mons
 	db $19
-	db 22,SPEAROW
-	db 22,DODUO
-	db 23,RATICATE
-	db 24,DODUO
-	db 24,GRIMER
-	db 26,DODUO
-	db 23,MURKROW
-	db 24,MURKROW
-	db 25,SLUGMA
-	db 26,SLUGMA
+	db 22,BULBASAUR
+	db 22,IVYSAUR
+	db 23,ARTICUNO
+	db 24,LANTURN
+	db 24,TAUROS
+	db 26,HITMONTOP
+	db 23,WEEZING
+	db 24,MACHAMP
+	db 25,STARMIE
+	db 26,BELLOSSOM
 
 ; Water Mons
 	db $00

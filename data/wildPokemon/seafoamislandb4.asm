@@ -2,16 +2,16 @@ IslandMonsB4:
 IF DEF(_HARD) ; Difficult Rom
 ; Grass Mons
 	db $0A
-	db 46,GOLBAT
-	db 46,ZUBAT
-	db 40,KRABBY
-	db 42,KINGLER
-	db 48,SEEL
-	db 42,SEEL
-	db 47,GOLBAT
-	db 45,ZUBAT
-	db 40,DEWGONG
-	db 44,DEWGONG
+	db 46,BELLSPROUT
+	db 46,GOLDEEN
+	db 40,PARASECT
+	db 42,NIDORAN_M
+	db 48,GYARADOS
+	db 42,GEODUDE
+	db 47,TENTACOOL
+	db 45,MIME_JR
+	db 40,MISDREAVUS
+	db 44,ODDISH
 
 ; Water Mons
 	db $00
@@ -19,16 +19,16 @@ IF DEF(_HARD) ; Difficult Rom
 ELSE ; Normal Rom
 ; Grass Mons
 	db $0A
-	db 36,GOLBAT
-	db 36,ZUBAT
-	db 30,KRABBY
-	db 32,KINGLER
-	db 28,SEEL
-	db 32,SEEL
-	db 27,GOLBAT
-	db 45,ZUBAT
-	db 30,DEWGONG
-	db 34,DEWGONG
+	db 36,RAPIDASH
+	db 36,TORKOAL
+	db 30,MAROWAK
+	db 32,DUGTRIO
+	db 28,CHARMELEON
+	db 32,KABUTOPS
+	db 27,EKANS
+	db 45,BELLOSSOM
+	db 30,DRATINI
+	db 34,NINETALES
 
 ; Water Mons
 	db $00

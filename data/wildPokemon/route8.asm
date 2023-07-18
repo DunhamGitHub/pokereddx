@@ -2,16 +2,16 @@ Route8Mons:
 IF DEF(_HARD) ; Difficult Rom
 ; Grass Mons
 	db $0F
-	db 28,ABRA
-	db 28,KADABRA
-	db 27,PIDGEOTTO
-	db 26,MANKEY
-	db 30,PERSIAN
-	db 30,PERSIAN
-	db 27,GROWLITHE
-	db 27,VULPIX
+	db 28,CROBAT
+	db 28,SANDSLASH
+	db 27,LICKILICKY
+	db 26,SANDSLASH
+	db 30,MILTANK
+	db 30,SLOWKING
 	db 27,HOUNDOUR
-	db 28,LICKITUNG
+	db 27,POLIWRATH
+	db 27,CLEFABLE
+	db 28,PRIMEAPE
 
 ; Water Mons
 	db $00
@@ -19,16 +19,16 @@ IF DEF(_HARD) ; Difficult Rom
 ELSE ; Normal Rom
 ; Grass Mons
 	db $0F
-	db 18,ABRA
-	db 18,KADABRA
-	db 17,PIDGEOTTO
-	db 16,MANKEY
-	db 20,MEOWTH
-	db 20,MEOWTH
-	db 17,GROWLITHE
-	db 17,VULPIX
-	db 17,HOUNDOUR
-	db 18,LICKITUNG
+	db 18,MURKROW
+	db 18,GOLDEEN
+	db 17,PORYGON
+	db 16,LICKITUNG
+	db 20,SMOOCHUM
+	db 20,MANKEY
+	db 17,HONCHKROW
+	db 17,PARASECT
+	db 17,KINGDRA
+	db 18,CLEFFA
 
 ; Water Mons
 	db $00

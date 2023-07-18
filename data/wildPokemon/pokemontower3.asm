@@ -2,16 +2,16 @@ TowerMons3:
 IF DEF(_HARD) ; Difficult Rom
 ; Grass Mons
 	db $0A
-	db 30,GASTLY
-	db 31,GASTLY
-	db 32,GASTLY
-	db 33,GASTLY
-	db 30,MISDREAVUS
-	db 29,MISDREAVUS
-	db 28,CUBONE
-	db 35,CUBONE
-	db 30,HAUNTER
-	db 35,HAUNTER
+	db 30,SEEL
+	db 31,EKANS
+	db 32,MEOWTH
+	db 33,CLOYSTER
+	db 30,KINGLER
+	db 29,HORSEA
+	db 28,VENONAT
+	db 35,POLIWAG
+	db 30,MAGNEZONE
+	db 35,MR_MIME
 
 ; Water Mons
 	db $00
@@ -19,16 +19,16 @@ IF DEF(_HARD) ; Difficult Rom
 ELSE ; Normal Rom
 ; Grass Mons
 	db $0A
-	db 20,GASTLY
-	db 21,GASTLY
-	db 22,GASTLY
-	db 23,GASTLY
-	db 20,MISDREAVUS
-	db 19,MISDREAVUS
-	db 18,CUBONE
-	db 25,CUBONE
-	db 20,HAUNTER
-	db 25,HAUNTER
+	db 20,HITMONCHAN
+	db 21,WIGGLYTUFF
+	db 22,CHARMELEON
+	db 23,DRATINI
+	db 20,SLOWPOKE
+	db 19,PIDGEOTTO
+	db 18,LUGIA
+	db 25,UMBREON
+	db 20,MAGMORTAR
+	db 25,BELLSPROUT
 
 ; Water Mons
 	db $00

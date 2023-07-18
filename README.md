@@ -8,6 +8,7 @@ Changes:
 - item prices all 1$
 - first Potion-Guy gives you Rare Candies etc.
 - first Shop sells Rare Candies etc. for 1$
+- Random encounter x/250 Pokémon
 
 
 
