@@ -1,9 +1,8 @@
 ViridianCashierText::
 	db MART_LIST
 	db 5
-	db POKE_BALL
-	db POTION
-	db ANTIDOTE
-	db PARLYZ_HEAL
-	db BURN_HEAL
+	db RARE_CANDY
+	db MASTER_BALL
+	db MAX_REPEL
+	db MAX_REVIVE
 	db $FF
