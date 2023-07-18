@@ -9,11 +9,17 @@ Route1TextPointers:
 
 Route1Text1:
 	TX_ASM
-	CheckAndSetEvent EVENT_GOT_POTION_SAMPLE
+	CheckAndResetEvent EVENT_GOT_POTION_SAMPLE
 	jr nz, .asm_1cada
 	ld hl, Route1ViridianMartSampleText
 	call PrintText
-	lb bc, POTION, 1
+	lb bc, RARE_CANDY, 98
+	call GiveItem
+	lb bc, MASTER_BALL, 98
+	call GiveItem
+	lb bc, MAX_REPEL, 98
+	call GiveItem
+	lb bc, MAX_REVIVE, 98
 	call GiveItem
 	jr nc, .BagFull
 	ld hl, Route1Text_1cae8

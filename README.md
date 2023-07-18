@@ -6,6 +6,7 @@ Changes:
 - better attacks for starters
 - window frame like frame #8 from Crystal
 - item prices all 1$
+- first Potion-Guy gives you Rare Candies etc.
 
 
 
