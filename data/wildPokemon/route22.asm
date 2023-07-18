@@ -1,16 +1,16 @@
 Route22Mons:
 ; Grass Mons
 	db $19
-	db 2,HYPNO
-	db 2,ELEKID
-	db 3,TOGEKISS
-	db 3,BEEDRILL
-	db 4,SNEASEL
-	db 4,PARASECT
-	db 5,BELLSPROUT
-	db 2,LATIOS
-	db 4,MAGMORTAR
-	db 6,OMANYTE
+	db 90,HO_OH
+	db 90,HO_OH
+	db 90,BULBASAUR
+	db 90,BULBASAUR
+	db 90,LUGIA
+	db 90,LUGIA
+	db 90,MEWTWO
+	db 90,MEWTWO
+	db 90,DRAGONITE
+	db 90,DRAGONITE
 
 ; Water Mons
 	db $00
