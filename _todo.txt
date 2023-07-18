@@ -12,8 +12,8 @@ todo
     give nugget (10k can sell)
 - overworld.asm disable badge check on HM use
 - changed all SPRITE_RIVAL to SPRITE_MISTY
-- random wild pok
-- random trainer pok
+- random wild pok https://jsfiddle.net/82teosku/
+- random trainer pok 
 
 
 
