@@ -1,6 +1,6 @@
 ViridianCashierText::
 	db MART_LIST
-	db 5
+	db 4
 	db RARE_CANDY
 	db MASTER_BALL
 	db MAX_REPEL
