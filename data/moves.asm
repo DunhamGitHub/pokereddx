@@ -66,10 +66,10 @@ MoveEnd:
 	move FLAMETHROWER, BURN_SIDE_EFFECT1,           90, FIRE,     100, 15
 	move MIST,         MIST_EFFECT,                  0, ICE,      100, 30
 	move WATER_GUN,    NO_ADDITIONAL_EFFECT,        40, WATER,    100, 25
-	move HYDRO_PUMP,   NO_ADDITIONAL_EFFECT,       120, WATER,    100,  5
+	move HYDRO_PUMP,   NO_ADDITIONAL_EFFECT,       150, WATER,    100,  5 ; 120, WATER,    100,  5
 	move SURF,         NO_ADDITIONAL_EFFECT,        90, WATER,    100, 15
 	move ICE_BEAM,     FREEZE_SIDE_EFFECT,          90, ICE,      100, 10
-	move BLIZZARD,     FREEZE_SIDE_EFFECT,         110, ICE,       70,  5
+	move BLIZZARD,     FREEZE_SIDE_EFFECT,         150, ICE,      100,  5 ; 110, ICE,       70,  5
 	move PSYBEAM,      CONFUSION_SIDE_EFFECT,       65, PSYCHIC,  100, 20
 	move BUBBLEBEAM,   SPEED_DOWN_SIDE_EFFECT,      65, WATER,    100, 20
 	move AURORA_BEAM,  ATTACK_DOWN_SIDE_EFFECT,     65, ICE,      100, 20
@@ -85,7 +85,7 @@ MoveEnd:
 	move MEGA_DRAIN,   DRAIN_HP_EFFECT,             40, GRASS,    100, 15
 	move LEECH_SEED,   LEECH_SEED_EFFECT,            0, GRASS,     90, 10
 	move GROWTH,       GROWTH_EFFECT,                0, NORMAL,   100, 20
-	move RAZOR_LEAF,   NO_ADDITIONAL_EFFECT,       120, GRASS,    100,  5
+	move RAZOR_LEAF,   NO_ADDITIONAL_EFFECT,       150, GRASS,    100,  5 ; 120, GRASS,    100, 20
 	move SOLARBEAM,    CHARGE_EFFECT,              200, GRASS,    100, 10
 	move POISONPOWDER, POISON_EFFECT,                0, POISON,    75, 35
 	move STUN_SPORE,   PARALYZE_EFFECT,              0, GRASS,     75, 30
@@ -95,7 +95,7 @@ MoveEnd:
 	move DRAGON_RAGE,  SPECIAL_DAMAGE_EFFECT,        1, DRAGON,   100, 10
 	move FIRE_SPIN,    TRAPPING_EFFECT,             35, FIRE,      85, 15
 	move THUNDERSHOCK, PARALYZE_SIDE_EFFECT1,       40, ELECTRIC, 100, 30
-	move THUNDERBOLT,  PARALYZE_SIDE_EFFECT1,       90, ELECTRIC, 100, 15
+	move THUNDERBOLT,  PARALYZE_SIDE_EFFECT1,      150, ELECTRIC, 100,  5 ; 90, ELECTRIC, 100, 15
 	move THUNDER_WAVE, PARALYZE_EFFECT,              0, ELECTRIC,  90, 20
 	move THUNDER,      PARALYZE_SIDE_EFFECT1,      120, ELECTRIC, 100,  5
 	move ROCK_THROW,   NO_ADDITIONAL_EFFECT,        50, ROCK,      90, 15
@@ -136,10 +136,10 @@ MoveEnd:
 	move SMOG,         POISON_SIDE_EFFECT2,         30, POISON,    70, 20
 	move SLUDGE,       POISON_SIDE_EFFECT2,         65, POISON,   100, 20
 	move BONE_CLUB,    FLINCH_SIDE_EFFECT1,         65, GROUND,    85, 20
-	move FIRE_BLAST,   BURN_SIDE_EFFECT2,          120, FIRE,     100,  5
+	move FIRE_BLAST,   BURN_SIDE_EFFECT2,          150, FIRE,     100,  5 ; 120, FIRE,     100,  5
 	move WATERFALL,    NO_ADDITIONAL_EFFECT,        80, WATER,    100, 15
 	move CLAMP,        TRAPPING_EFFECT,             35, WATER,     85, 15
-	move SWIFT,        SWIFT_EFFECT,                60, NORMAL,   100, 20
+	move SWIFT,        SWIFT_EFFECT,               150, NORMAL,   100,  5 ; 60, NORMAL,   100, 20
 	move SKULL_BASH,   CHARGE_EFFECT,              130, NORMAL,   100, 10
 	move SPIKE_CANNON, TWO_TO_FIVE_ATTACKS_EFFECT,  20, NORMAL,   100, 15
 	move CONSTRICT,    SPEED_DOWN_SIDE_EFFECT,      10, NORMAL,   100, 35
@@ -200,7 +200,7 @@ MoveEnd:
 	move BARRIER,      DEFENSE_UP2_EFFECT,           0, STEEL,    100, 15 ; Iron Defense
 	move CUT,          FLINCH_SIDE_EFFECT2,         75, FLYING,    95, 15 ; Air Slash
 	move BITE,         FIRE_FANG_EFFECT,            65, FIRE,      95, 15 ; Fire Fang
-	move EMBER,        RECOIL_EFFECT,              120, FIRE,     100, 15 ; Flare Blitz
+	move EMBER,        RECOIL_EFFECT,              150, FIRE,     100,  5 ; Flare Blitz ; 120, FIRE,     100, 15
 	move FIRE_BLAST,   HYPER_BEAM_EFFECT,          150, FIRE,      90,  5 ; Blast Burn
 	move BITE,         ICE_FANG_EFFECT,             65, ICE,       95, 15 ; Ice Fang
 	move BITE,         THUNDER_FANG_EFFECT,         65, ELECTRIC,  95, 15 ; Thunder Fang
@@ -259,8 +259,8 @@ MoveEnd:
 	move SONICBOOM,    CONFUSION_SIDE_EFFECT,      110, FLYING,    85, 10 ; Hurricane
 	move TAIL_WHIP,    ATTACK_DOWN1_EFFECT,          0, FAIRY,    100, 30 ; Baby Doll Eyes
 	move BONEMERANG,   TWO_TO_FIVE_ATTACKS_EFFECT,  25, GROUND,    90, 10 ; Bone Rush
-	move AURORA_BEAM,  NO_ADDITIONAL_EFFECT,       100, FLYING,   100,  5 ; Aeroblast
-	move ROCK_THROW,   SILVER_WIND_EFFECT,          60, ROCK,     100,  5 ; Ancient Power
+	move AURORA_BEAM,  NO_ADDITIONAL_EFFECT,       150, FLYING,   100,  5 ; Aeroblast ; 100, FLYING,   100,  5 ;
+	move ROCK_THROW,   SILVER_WIND_EFFECT,         150, ROCK,     100,  5 ; Ancient Power ; 60, ROCK,     100,  5 ;
 	move SURF,         CHARGE_EFFECT,               80, WATER,    100, 10 ; Dive (Unused)
 	move FLASH,        SPECIAL_DOWN_SIDE_EFFECT,    70, PSYCHIC,  100,  5 ; Luster Purge
 	move GLARE,        SILVER_WIND_EFFECT,         100, PSYCHIC,  100, 10 ; Mind Blast

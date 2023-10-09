@@ -209,18 +209,60 @@ EvosMovesPointerTable:
 	dw Mon208_EvosMoves
 
 
+
+
 Mon001_EvosMoves:
 ;BULBASAUR
 ;Evolutions
-	db EV_LEVEL,16,IVYSAUR
+	;db EV_LEVEL,16,IVYSAUR → do not evolve
 	db 0
 ;Learnset
 	db 1,BITE
-	db 2,LEAF_BLADE
+	db 2,RAZOR_LEAF
 	db 2,FIRE_BLAST
 	db 2,HYDRO_PUMP
-	db 2,THUNDER
+	db 2,SWIFT
+	db 42,THUNDERBOLT
+	db 42,ANCIENTPOWER
+	db 42,BLIZZARD
+	db 42,AEROBLAST
 	db 0
+
+Mon004_EvosMoves:
+;CHARMANDER
+;Evolutions
+	;db EV_LEVEL,16,CHARMELEON → do not evolve
+	db 0
+;Learnset
+	db 1,BITE
+	db 2,RAZOR_LEAF
+	db 2,FIRE_BLAST
+	db 2,HYDRO_PUMP
+	db 2,SWIFT
+	db 42,THUNDERBOLT
+	db 42,ANCIENTPOWER
+	db 42,BLIZZARD
+	db 42,AEROBLAST
+	db 0
+
+Mon007_EvosMoves:
+;SQUIRTLE
+;Evolutions
+	;db EV_LEVEL,16,WARTORTLE → do not evolve
+	db 0
+;Learnset
+	db 1,BITE
+	db 2,RAZOR_LEAF
+	db 2,FIRE_BLAST
+	db 2,HYDRO_PUMP
+	db 2,SWIFT
+	db 42,THUNDERBOLT
+	db 42,ANCIENTPOWER
+	db 42,BLIZZARD
+	db 42,AEROBLAST
+	db 0
+
+
 
 Mon002_EvosMoves:
 ;IVYSAUR
@@ -272,19 +314,6 @@ Mon003_EvosMoves:
 	db 60,SOLARBEAM
 	db 0
 
-Mon004_EvosMoves:
-;CHARMANDER
-;Evolutions
-	db EV_LEVEL,16,CHARMELEON
-	db 0
-;Learnset
-	db 1,BITE
-	db 2,LEAF_BLADE
-	db 2,FIRE_BLAST
-	db 2,HYDRO_PUMP
-	db 2,THUNDER
-	db 0
-
 Mon005_EvosMoves:
 ;CHARMELEON
 ;Evolutions
@@ -334,19 +363,6 @@ Mon006_EvosMoves:
 	db 56,FIRE_SPIN
 	db 62,CRUNCH
 	db 71,FLARE_BLITZ
-	db 0
-
-Mon007_EvosMoves:
-;SQUIRTLE
-;Evolutions
-	db EV_LEVEL,16,WARTORTLE
-	db 0
-;Learnset
-	db 1,BITE
-	db 2,LEAF_BLADE
-	db 2,FIRE_BLAST
-	db 2,HYDRO_PUMP
-	db 2,THUNDER
 	db 0
 
 Mon008_EvosMoves:
@@ -3616,7 +3632,7 @@ Mon150_EvosMoves:
 	db 73,SHADOW_BALL ; Aura Sphere → TM move
 	db 82,AMNESIA
 	db 91,DARK_PULSE ; Mist → TM move
-	db 100,MIND_BLAST ; Psystrike → Custom Move. Always Crits, 10% chance to raise all stats.
+	db 91,MIND_BLAST ; Psystrike → Custom Move. Always Crits, 10% chance to raise all stats.
 	db 0
 
 Mon151_EvosMoves:
@@ -3644,23 +3660,10 @@ Mon152_EvosMoves:
 ;Evolutions
 	db 0
 ;Learnset
-	db 1,WATER_GUN ; Missingno move (rumor reference)
-	db 1,SKY_ATTACK ; Missingno move (rumor reference)
-	db 1,WHIRLWIND
-	db 9,GUST
-	db 15,DRAGONBREATH ; Dragon Rush → GSC TM move
-	db 23,EXTRASENSORY
-	db 29,TWISTER ; Rain Dance → new move
-	db 37,HYDRO_PUMP
-	db 43,DRAGON_PULSE ; Aeroblast → TM move
-	db 50,AEROBLAST ; Punishment → Aeroblast
-	db 57,ANCIENTPOWER
-	db 65,MIST ; Safeguard → new move
-	db 71,RECOVER
-	db 79,PSYCHIC_M ; Future Sight → TM move
-	db 85,REFLECT ; Natural Gift → TM move
-	db 93,AMNESIA ; Calm Mind → new move
-	db 99,HURRICANE ; Sky Attack → new move
+	db 15,DRAGONBREATH ; Brave Bird → GSC TM move
+	db 30,HURRICANE ; Sky Attack → TM move
+	db 30,FLAMETHROWER;
+	db 30,AEROBLAST;
 	db 0
 
 Mon153_EvosMoves:
@@ -4898,16 +4901,7 @@ Mon208_EvosMoves:
 	db 1,WHIRLWIND
 	db 9,GUST
 	db 15,DRAGONBREATH ; Brave Bird → GSC TM move
-	db 23,EXTRASENSORY
-	db 29,SHADOW_BALL ; Sunny Day → TM move
-	db 37,FIRE_BLAST
-	db 43,SOLARBEAM ; Sacred Fire → Solarbeam
-	db 50,FLARE_BLITZ ; Solarbeam → new move
-	db 57,ANCIENTPOWER
-	db 65,HAZE ; Safeguard → new move
-	db 71,RECOVER
-	db 79,SKY_ATTACK ; Future Sight → Sky Attack
-	db 85,LIGHT_SCREEN ; Natural Gift → TM move
-	db 93,AMNESIA ; Calm Mind → new move
-	db 99,HURRICANE ; Sky Attack → TM move
+	db 30,HURRICANE ; Sky Attack → TM move
+	db 30,FLAMETHROWER;
+	db 30,AEROBLAST;
 	db 0
